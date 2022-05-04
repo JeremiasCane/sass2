@@ -1,0 +1,75 @@
+/*Grid*/
+@media screen and (min-width:768px) {
+    .centrar{
+         margin-left: 5px;
+         margin-right: 5px;
+        padding-top: 20px;
+        font-size: 1.4em;
+        color: #ffffff;
+        
+    }
+
+    .img img{
+        transform: translateX(330px);
+        width: 50vw;
+        margin: auto;
+    }
+        section{
+          margin-top: 30px;
+         margin-left: 100px;
+         margin-right: 100px;
+          }
+    .primero iframe{
+      width: 700px;
+    }
+span{
+      width: 50px;
+    height: 50px;
+}
+.grid{
+    Display:grid;
+    Grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+} 
+.copy{
+    margin-top:10px ;
+}
+.footer i {
+color: #f3A903;
+}
+.about{
+    padding: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+}
+
+@media screen and (max-width:480px){
+    .imp img{
+        transform: translateX(50px);
+        margin: 10px;
+        width: 370px;
+    }
+    .segundo{
+    
+        background-color: aqua;
+        border: solid 3px black;
+        margin: 7px;
+        padding: 5px;
+        margin-bottom: 40px;
+        
+        
+    }
+
+    .imagen{
+        margin-left: 23px;
+    }
+    div iframe{
+        width: 400px;
+        height: 300px;
+        transform: translateX(-25px);
+    }
+}
+
